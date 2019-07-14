@@ -289,11 +289,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracker: {fileID: 767987084}
-  Nuike: {fileID: 3473115643729036575, guid: 8f5ab42a3fd4d9542bf784adfa6d8be5, type: 3}
-  Whuietie: {fileID: 837292831854209359, guid: b87e33376c96128409e123242778b6f2, type: 3}
-  Sepoeikeis: {fileID: 8999052728410909660, guid: 90b0ce3da3b3f0a48a4bdc0681e14575,
+  Nuike: {fileID: 3837538034845761488, guid: b67df8e0dceacac4e941c8f56d26554d, type: 3}
+  Whuietie: {fileID: 2441632788433115546, guid: b87e33376c96128409e123242778b6f2,
     type: 3}
-  BBS: {fileID: 6814421376987241138, guid: 8d1be7091a02ac74f962d78eb737bd8a, type: 3}
+  Sepoeikeis: {fileID: 4056914068628411270, guid: 90b0ce3da3b3f0a48a4bdc0681e14575,
+    type: 3}
+  BBS: {fileID: 411811392349931153, guid: 8d1be7091a02ac74f962d78eb737bd8a, type: 3}
 --- !u!4 &595340214
 Transform:
   m_ObjectHideFlags: 0

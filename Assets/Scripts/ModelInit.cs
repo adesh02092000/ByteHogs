@@ -21,7 +21,7 @@ public class ModelInit : MonoBehaviour
         switch(modelSelected) {
             case "Nuike":
                 Debug.Log("Nuike");
-                modelPrefab = Instantiate(Nuike, new Vector3(1.1f, -13.5f, -16.9f), Quaternion.identity);
+                modelPrefab = Instantiate(Nuike, new Vector3(1.4f, -7.1f, -16.3f), Quaternion.identity);
                 modelPrefab.transform.parent = imageTracker.transform;
                 GameObject child = imageTracker.transform.GetChild(0).gameObject;
                 Debug.Log("john");
@@ -30,17 +30,17 @@ public class ModelInit : MonoBehaviour
                 break;
 
             case "Whuietie":
-                modelPrefab = Instantiate(Whuietie, new Vector3(5.34f, -5.07f, -0.46f), Quaternion.identity);
+                modelPrefab = Instantiate(Whuietie, new Vector3(-5.88f, -3.62f, 3.67f), Quaternion.identity);
                 modelPrefab.transform.parent = imageTracker.transform;
                 break;
 
             case "Sepoeikeis":
-                modelPrefab = Instantiate(Sepoeikeis, new Vector3(11.12f, 0, 5.8f), Quaternion.identity);
+                modelPrefab = Instantiate(Sepoeikeis, new Vector3(16.28f, -5.19f, 20.03f), Quaternion.identity);
                 modelPrefab.transform.parent = imageTracker.transform;
                 break;
 
             case "BBS":
-                modelPrefab = Instantiate(BBS, new Vector3(-1.1f, -8.7f, -7.8f), Quaternion.identity);
+                modelPrefab = Instantiate(BBS, new Vector3(0.7f, -1.72f, -5.8f), Quaternion.identity);
                 modelPrefab.transform.parent = imageTracker.transform;
                 break;
 

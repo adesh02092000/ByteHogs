@@ -6,21 +6,27 @@ public class ModelInit : MonoBehaviour
 {
     private string modelSelected;
     private GameObject modelPrefab;
-    private GameObject imageTracker;
+    public GameObject imageTracker;
+
 
     // prefabs
     public GameObject Nuike;
     public GameObject Whuietie;
     public GameObject Sepoeikeis;
     public GameObject BBS;
-    private void Awake()
-    {
+    void Start() {
+        Debug.Log("yoloooo");
         modelSelected = PlayerPrefs.GetString("SelModel");
-        imageTracker = GameObject.Find("ImageTarget");
+        //imageTracker = GameObject.Find("ImageTarget");
         switch(modelSelected) {
             case "Nuike":
+                Debug.Log("Nuike");
                 modelPrefab = Instantiate(Nuike, new Vector3(0, 0, 0), Quaternion.identity);
                 modelPrefab.transform.parent = imageTracker.transform;
+                GameObject child = imageTracker.transform.GetChild(0).gameObject;
+                Debug.Log("john");
+                Debug.Log(child.name);
+                Debug.Log("Doe");
                 break;
 
             case "Whuietie":

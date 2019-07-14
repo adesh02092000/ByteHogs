@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 570028688983406224}
   - component: {fileID: 8841164948440353958}
   - component: {fileID: 2994517473684353119}
+  - component: {fileID: 362036412655044864}
   m_Layer: 0
   m_Name: Sepoeikeis
   m_TagString: Untagged
@@ -77,3 +78,15 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &362036412655044864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581065160904000643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b10d24f7ef4144089a15c30c965f30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -290,9 +290,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imageTracker: {fileID: 767987084}
   Nuike: {fileID: 3837538034845761488, guid: b67df8e0dceacac4e941c8f56d26554d, type: 3}
-  Whuietie: {fileID: 2441632788433115546, guid: b87e33376c96128409e123242778b6f2,
+  Whuietie: {fileID: 9046710997789732026, guid: b87e33376c96128409e123242778b6f2,
     type: 3}
-  Sepoeikeis: {fileID: 4056914068628411270, guid: 90b0ce3da3b3f0a48a4bdc0681e14575,
+  Sepoeikeis: {fileID: 3581065160904000643, guid: 90b0ce3da3b3f0a48a4bdc0681e14575,
     type: 3}
   BBS: {fileID: 411811392349931153, guid: 8d1be7091a02ac74f962d78eb737bd8a, type: 3}
 --- !u!4 &595340214
@@ -382,7 +382,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.5918e-41, y: 0, z: 0, w: 2.5713942e-38}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
